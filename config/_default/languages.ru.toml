@@ -2,7 +2,7 @@ disabled = false
 languageCode = "ru"
 languageName = "Russian"
 weight = 1
-title = "Iskra"
+title = "FM"
 
 [params]
   displayName = "ru"

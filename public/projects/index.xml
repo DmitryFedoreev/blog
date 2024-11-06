@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Мои проекты on Iskra</title><link>https://dmitryfedoreev.github.io/blog/projects/</link><description>Recent content in Мои проекты on Iskra</description><generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>youremail@example.com (Dmitry)</managingEditor><webMaster>youremail@example.com (Dmitry)</webMaster><copyright>© 2024 Dmitry Fedoreev</copyright><lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/blog/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Brain Games</title><link>https://dmitryfedoreev.github.io/blog/projects/brain-games/</link><pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate><author>youremail@example.com (Dmitry)</author><guid>https://dmitryfedoreev.github.io/blog/projects/brain-games/</guid><description>Игры разума — это набор из пяти увлекательных консольных игр, основанных на популярных мобильных приложениях для тренировки мозга.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Мои проекты on Iskra</title>
+    <link>http://localhost:1313/blog/projects/</link>
+    <description>Recent content in Мои проекты on Iskra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <managingEditor>youremail@example.com (Dmitry)</managingEditor>
+    <webMaster>youremail@example.com (Dmitry)</webMaster>
+    <copyright>© 2024 Dmitry Fedoreev</copyright>
+    <lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brain Games</title>
+      <link>http://localhost:1313/blog/projects/brain-games/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>http://localhost:1313/blog/projects/brain-games/</guid>
+      <description>Игры разума — это набор из пяти увлекательных консольных игр, основанных на популярных мобильных приложениях для тренировки мозга.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

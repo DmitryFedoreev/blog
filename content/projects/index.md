@@ -43,3 +43,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 В каждый проект можно зайти и ознакомиться с деталями более подробно.
+
+
+{{< github repo="DmitryFedoreev/Brain-games" >}}
