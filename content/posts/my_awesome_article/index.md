@@ -2,7 +2,7 @@
 title: "Руководство: Как повысить продажи на email-рассылках"
 date: 2024-10-24T12:00:00+03:00
 draft: false
-tags: ["программирование", "Hugo", "блог"]
+tags: ["Email", "Marketing"]
 categories: ["Технологии"]
 author: "Dmitry"
 ---
