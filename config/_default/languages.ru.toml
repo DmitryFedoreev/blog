@@ -12,7 +12,7 @@ title = "FM"
 # logo = "img/logo.jpg"
   secondaryLogo = "img/logo.jpg"
   description = "Интернет-маркетолог"
-  copyright = "© { year } Dmitry Fedoreev"
+  copyright = "© { year } Dmitry"
 
 [params.author]
    name = "Dmitry"

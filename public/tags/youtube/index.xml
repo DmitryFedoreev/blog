@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YouTube on FM</title>
-    <link>http://localhost:1313/fedoreev-blog/tags/youtube/</link>
+    <link>https://dmitryfedoreev.github.io/fedoreev-blog/tags/youtube/</link>
     <description>Recent content in YouTube on FM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <managingEditor>youremail@example.com (Dmitry)</managingEditor>
     <webMaster>youremail@example.com (Dmitry)</webMaster>
-    <copyright>© 2024 Dmitry Fedoreev</copyright>
-    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/fedoreev-blog/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 Dmitry</copyright>
+    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/fedoreev-blog/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как увеличить количество подписчиков на YouTube: личный опыт</title>
-      <link>http://localhost:1313/fedoreev-blog/posts/awesome_article/</link>
+      <link>https://dmitryfedoreev.github.io/fedoreev-blog/posts/awesome_article/</link>
       <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
       <author>youremail@example.com (Dmitry)</author>
-      <guid>http://localhost:1313/fedoreev-blog/posts/awesome_article/</guid>
+      <guid>https://dmitryfedoreev.github.io/fedoreev-blog/posts/awesome_article/</guid>
       <description>В этой статье я расскажу, как мне удалось увеличить количество подписчиков на канале с 3 000 до 33 000 менее чем за 7 месяцев и поделюсь стратегиями, которые привели к этому результату.</description>
       
     </item>
