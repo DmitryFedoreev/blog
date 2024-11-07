@@ -1,0 +1,23 @@
+# Hugo
+/resources/
+/assets/
+/themes/
+
+# Git
+.git/
+.gitmodules
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Hugo config files
+config.toml
+config.yaml
+
+# Local .env or other environment files
+.env
