@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on FM</title>
-    <link>https://dmitryfedoreev.github.io/blog/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on FM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <managingEditor>youremail@example.com (Dmitry)</managingEditor>
     <webMaster>youremail@example.com (Dmitry)</webMaster>
     <copyright>© 2024 Dmitry</copyright>
-    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Email</title>
-      <link>https://dmitryfedoreev.github.io/blog/tags/email/</link>
+      <link>http://localhost:1313/blog/tags/email/</link>
       <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
       <author>youremail@example.com (Dmitry)</author>
-      <guid>https://dmitryfedoreev.github.io/blog/tags/email/</guid>
+      <guid>http://localhost:1313/blog/tags/email/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Marketing</title>
-      <link>https://dmitryfedoreev.github.io/blog/tags/marketing/</link>
+      <link>http://localhost:1313/blog/tags/marketing/</link>
       <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
       <author>youremail@example.com (Dmitry)</author>
-      <guid>https://dmitryfedoreev.github.io/blog/tags/marketing/</guid>
+      <guid>http://localhost:1313/blog/tags/marketing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Yandex</title>
-      <link>https://dmitryfedoreev.github.io/blog/tags/yandex/</link>
+      <link>http://localhost:1313/blog/tags/yandex/</link>
       <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
       <author>youremail@example.com (Dmitry)</author>
-      <guid>https://dmitryfedoreev.github.io/blog/tags/yandex/</guid>
+      <guid>http://localhost:1313/blog/tags/yandex/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>YouTube</title>
-      <link>https://dmitryfedoreev.github.io/blog/tags/youtube/</link>
+      <link>http://localhost:1313/blog/tags/youtube/</link>
       <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
       <author>youremail@example.com (Dmitry)</author>
-      <guid>https://dmitryfedoreev.github.io/blog/tags/youtube/</guid>
+      <guid>http://localhost:1313/blog/tags/youtube/</guid>
       <description></description>
       
     </item>

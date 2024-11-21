@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="ru" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="https://dmitryfedoreev.github.io/blog/posts/" />
+  <link rel="canonical" href="http://localhost:1313/blog/posts/" />
   
   <link rel="alternate" type="application/rss+xml" href="/blog/posts/index.xml" title="FM" />
   
@@ -64,7 +64,7 @@
   <meta property="og:title" content="Полезное" />
 <meta property="og:description" content="Интернет-маркетолог" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://dmitryfedoreev.github.io/blog/posts/" />
+<meta property="og:url" content="http://localhost:1313/blog/posts/" />
 
 
   <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Полезное"/>
@@ -106,6 +106,9 @@
 
 
 
+
+
+<script defer src="/blog/lib/typeit/typeit.umd.1b3200cb448f5cd1f548f2781452643d3511a43584b377b82c03a58055da4fdb7bc8f6c6c2ce846480c7677ff25bfd0d75f15823c09443ab18e0fd2cad792587.js" integrity="sha512-GzIAy0SPXNH1SPJ4FFJkPTURpDWEs3e4LAOlgFXaT9t7yPbGws6EZIDHZ3/yW/0NdfFYI8CUQ6sY4P0srXklhw=="></script>
 
 
 
@@ -443,41 +446,20 @@
   <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      <div id="typed-text" style="display: inline;"></div> <!-- Здесь будет печатающий текст -->
-<span id="cursor" style="display: inline-block;">|</span> <!-- Палочка -->
+      <div id="typeit-b42d540a96d85fa072d3518a9842eac7"></div>
+
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    const texts = ["Полезные статьи, советы по маркетингу и продвижению в интернете."];
-    let index = 0;
-    let charIndex = 0;
-    const typedText = document.getElementById("typed-text");
-    const cursor = document.getElementById("cursor");
-
-    function type() {
-        if (charIndex < texts[index].length) {
-            typedText.textContent += texts[index].charAt(charIndex);
-            charIndex++;
-            setTimeout(type, 100); // Задержка между печатью символов
-        } else {
-            // Запускаем мигание палочки после завершения печати
-            cursor.style.animation = "blink 1s step-start infinite"; 
-        }
-    }
-
-    // Начинаем печатать текст при загрузке страницы
-    type(); 
-
-    // Создаем анимацию мигания для палочки
-    const style = document.createElement('style');
-    style.innerHTML = `
-        @keyframes blink {
-            50% {
-                opacity: 0;
-            }
-        }
-    `;
-    document.head.appendChild(style);
-});
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-b42d540a96d85fa072d3518a9842eac7", {
+        strings: ["","Полезные статьи, советы по маркетингу и продвижению в интернете.",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
 </script>
 
     </div>
