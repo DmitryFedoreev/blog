@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Добро пожаловать на мой сайт on FM</title>
+    <link>https://dmitryfedoreev.github.io/blog/</link>
+    <description>Recent content in Добро пожаловать на мой сайт on FM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <managingEditor>youremail@example.com (Dmitry)</managingEditor>
+    <webMaster>youremail@example.com (Dmitry)</webMaster>
+    <copyright>© 2024 Dmitry</copyright>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как запустить рекламу в Яндекс Директ: пошаговое руководство</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/my_blog/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/my_blog/</guid>
+      <description>Как запустить рекламу в Яндекс Директ: пошаговое руководство # Рассмотрим, как запустить рекламу в Яндекс Директ, шаг за шагом.</description>
+      
+    </item>
+    
+    <item>
+      <title>Как увеличить количество подписчиков на YouTube: личный опыт</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/awesome_article/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/awesome_article/</guid>
+      <description>В этой статье я расскажу, как мне удалось увеличить количество подписчиков на канале с 3 000 до 33 000 менее чем за 7 месяцев и поделюсь стратегиями, которые привели к этому результату.</description>
+      
+    </item>
+    
+    <item>
+      <title>Руководство: Как повысить продажи на email-рассылках</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/my_awesome_article/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/my_awesome_article/</guid>
+      <description>Руководство: Как повысить продажи на email-рассылках # Email-маркетинг — это мощный инструмент, который может значительно увеличить ваши продажи.</description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://dmitryfedoreev.github.io/blog/about/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/about/</guid>
+      <description>| Рекламные платформы: Яндекс Директ, ВК, MyTarget, TargetHunter.</description>
+      
+    </item>
+    
+    <item>
+      <title>Мои проекты</title>
+      <link>https://dmitryfedoreev.github.io/blog/projects/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/projects/</guid>
+      <description>В каждый проект можно зайти и ознакомиться с деталями более подробно.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
