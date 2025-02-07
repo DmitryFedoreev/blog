@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yandex on FQA</title>
+    <link>http://localhost:1313/blog/tags/yandex/</link>
+    <description>Recent content in Yandex on FQA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <managingEditor>youremail@example.com (Dmitry)</managingEditor>
+    <webMaster>youremail@example.com (Dmitry)</webMaster>
+    <copyright>© 2025 Dmitry</copyright>
+    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/yandex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как запустить рекламу в Яндекс Директ: пошаговое руководство</title>
+      <link>http://localhost:1313/blog/posts/my_blog/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>http://localhost:1313/blog/posts/my_blog/</guid>
+      <description>Как запустить рекламу в Яндекс Директ: пошаговое руководство # Рассмотрим, как запустить рекламу в Яндекс Директ, шаг за шагом.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
