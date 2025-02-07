@@ -2,7 +2,7 @@ disabled = false
 languageCode = "ru"
 languageName = "Russian"
 weight = 1
-title = "FM"
+title = "FQA"
 
 [params]
   displayName = "ru"
@@ -11,7 +11,7 @@ title = "FM"
   dateFormat = "2 January 2006"
 # logo = "img/logo.jpg"
   secondaryLogo = "img/logo.jpg"
-  description = "Интернет-маркетолог"
+  description = "Manual QA Engineer"
   copyright = "© { year } Dmitry"
 
 [params.author]
@@ -19,8 +19,8 @@ title = "FM"
    email = "youremail@example.com"
    image = "img/logo.jpg"
    imageQuality = 96
-   headline = "Интернет-маркетолог"
-   bio = "Интернет маркетолог"
+   headline = "Manual QA Engineer"
+   bio = "Manual QA Engineer"
     links = [
       { email = "mailto:fedoreev.doc@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
@@ -62,7 +62,7 @@ title = "FM"
       { telegram = "https://t.me/dmitryfedoreev" },
 #     { threads = "https://www.threads.net/@username" },
 #     { tiktok = "https://tiktok.com/@username" },
-      { tumblr = "https://tenchat.ru/FedoreevDmitry" },
+#      { tumblr = "https://tenchat.ru/FedoreevDmitry" },
 #     { twitch = "https://twitch.tv/username" },
 #     { twitter = "https://twitter.com/username" },
 #     { x-twitter = "https://twitter.com/username" },
