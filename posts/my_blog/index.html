@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/Blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Blog/livereload" data-no-instant defer></script>
+<html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="ru" />
@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Как запустить рекламу в Яндекс Директ: пошаговое руководство &middot; Iskra</title>
-  <meta name="title" content="Как запустить рекламу в Яндекс Директ: пошаговое руководство &middot; Iskra" />
+  <title>Как эффективно писать тест-кейсы &middot; FQA</title>
+  <meta name="title" content="Как эффективно писать тест-кейсы &middot; FQA" />
   
-  <meta name="description" content="Интернет-маркетолог" />
-  <meta name="keywords" content="wdw, Hugo, блог, " />
-  
-  
-  <link rel="canonical" href="http://localhost:1313/Blog/posts/my_blog/" />
+  <meta name="description" content="Manual QA Engineer" />
+  <meta name="keywords" content="тест-кейсы, " />
   
   
+  <link rel="canonical" href="https://dmitryfedoreev.github.io/blog/posts/my_blog/" />
   
   
   
@@ -26,11 +24,13 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/Blog/css/main.bundle.min.67eb0befb1fb57e6528684f3a2ff6e0606a82100504705b66488d54a9f3fda9c2605c9bf3b70163208427288637a7b4d1a168384c1115e417458eae6b44b329c.css"
-    integrity="sha512-Z&#43;sL77H7V&#43;ZShoTzov9uBgaoIQBQRwW2ZIjVSp8/2pwmBcm/O3AWMghCcohjentNGhaDhMERXkF0WOrmtEsynA==" />
   
   
-  <script type="text/javascript" src="/Blog/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+  <link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.b51d2badb5b1c786d8e4e4604c12216f0fa1a0b36a284fff0be67448ff5016dc35fea713f7fabc66ce7a2df24d0f8893e535853845c5b4dc360e1e0b943efa8c.css"
+    integrity="sha512-tR0rrbWxx4bY5ORgTBIhbw&#43;hoLNqKE//C&#43;Z0SP9QFtw1/qcT9/q8Zs56LfJND4iT5TWFOEXFtNw2Dh4LlD76jA==" />
+  
+  
+  <script type="text/javascript" src="/blog/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
     integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
   
   
@@ -39,19 +39,19 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/Blog/js/main.bundle.min.38829a2d46667b3048ed12a339f7a49584d39596241b4e61e344c689c257fec016f6e18ea8a349c0a7e2b35a3ef0ab2aed556a64100ada730fc9666da5b7c29a.js"
+  <script defer type="text/javascript" id="script-bundle" src="/blog/js/main.bundle.min.38829a2d46667b3048ed12a339f7a49584d39596241b4e61e344c689c257fec016f6e18ea8a349c0a7e2b35a3ef0ab2aed556a64100ada730fc9666da5b7c29a.js"
     integrity="sha512-OIKaLUZmezBI7RKjOfeklYTTlZYkG05h40TGicJX/sAW9uGOqKNJwKfis1o&#43;8Ksq7VVqZBAK2nMPyWZtpbfCmg==" data-copy="" data-copied=""></script>
   
   
   
-  <script src="/Blog/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
+  <script src="/blog/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
   
   
   
-  <link rel="apple-touch-icon" sizes="180x180" href="/Blog/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/Blog/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/Blog/favicon-16x16.png" />
-  <link rel="manifest" href="/Blog/site.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png" />
+  <link rel="manifest" href="/blog/site.webmanifest" />
   
   
   
@@ -59,16 +59,16 @@
   
   
   
-  <meta property="og:title" content="Как запустить рекламу в Яндекс Директ: пошаговое руководство" />
-<meta property="og:description" content="Как запустить рекламу в Яндекс Директ: пошаговое руководство # Рассмотрим, как запустить рекламу в Яндекс Директ, шаг за шагом." />
+  <meta property="og:title" content="Как эффективно писать тест-кейсы" />
+<meta property="og:description" content=" Статья появится позже # " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/Blog/posts/my_blog/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://dmitryfedoreev.github.io/blog/posts/my_blog/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-10-24T12:00:00+03:00" />
 <meta property="article:modified_time" content="2024-10-24T12:00:00+03:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Как запустить рекламу в Яндекс Директ: пошаговое руководство"/>
-<meta name="twitter:description" content="Как запустить рекламу в Яндекс Директ: пошаговое руководство # Рассмотрим, как запустить рекламу в Яндекс Директ, шаг за шагом."/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Как эффективно писать тест-кейсы"/>
+<meta name="twitter:description" content=" Статья появится позже # "/>
 
   
   <script type="application/ld+json">
@@ -76,12 +76,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Полезное",
-    "name": "Как запустить рекламу в Яндекс Директ: пошаговое руководство",
-    "headline": "Как запустить рекламу в Яндекс Директ: пошаговое руководство",
+    "name": "Как эффективно писать тест-кейсы",
+    "headline": "Как эффективно писать тест-кейсы",
     
-    "abstract": "Как запустить рекламу в Яндекс Директ: пошаговое руководство # Рассмотрим, как запустить рекламу в Яндекс Директ, шаг за шагом.",
+    "abstract": " Статья появится позже # ",
     "inLanguage": "ru",
-    "url" : "http:\/\/localhost:1313\/Blog\/posts\/my_blog\/",
+    "url" : "https:\/\/dmitryfedoreev.github.io\/blog\/posts\/my_blog\/",
     "author" : {
       "@type": "Person",
       "name": "Dmitry"
@@ -92,10 +92,10 @@
     
     "dateModified": "2024-10-24T12:00:00\u002b03:00",
     
-    "keywords": ["wdw","Hugo","блог"],
+    "keywords": ["тест-кейсы"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "383"
+    "wordCount": "4"
   }]
   </script>
 
@@ -106,19 +106,19 @@
   
   
   
-  <link href="mailto:hello@your_domain.com" rel="me" />
+  <link href="mailto:fedoreev.doc@gmail.com" rel="me" />
   
   
-  <link href="https://github.com/username" rel="me" />
+  <link href="https://github.com/DmitryFedoreev/" rel="me" />
   
   
-  <link href="https://t.me/username" rel="me" />
+  <link href="https://t.me/dmitryfedoreev" rel="me" />
   
   
   
   
 
-<script src="/Blog/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+<script src="/blog/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
 
 
 
@@ -168,7 +168,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/Blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">Iskra</a>
+            <a href="/blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">FQA</a>
             
 
         </nav>
@@ -177,7 +177,7 @@
             
             
             
-  <a href="/Blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         About
@@ -188,7 +188,7 @@
 
             
             
-  <a href="/Blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Blog
@@ -199,7 +199,7 @@
 
             
             
-  <a href="/Blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Projects
@@ -210,7 +210,7 @@
 
             
             
-  <a href="/Blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Tags
@@ -330,7 +330,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             About
@@ -345,7 +345,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Blog
@@ -360,7 +360,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Projects
@@ -375,7 +375,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Tags
@@ -422,7 +422,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Как запустить рекламу в Яндекс Директ: пошаговое руководство
+      Как эффективно писать тест-кейсы
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -467,7 +467,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>383 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">2 минут</span>
+  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>4 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">1 минута</span>
   
 
   
@@ -504,10 +504,8 @@
     
     
       
-        
-      
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="Dmitry" src="/Blog/img/logo_hu55af6199f055106ca50100dfdd2d47af_230685_192x192_fill_q75_box_center.jpg" />
+      alt="Dmitry" src="/blog/img/logo.jpg" />
     
   
   <div class="place-self-center">
@@ -520,7 +518,7 @@
     </div>
     
     
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">Интернет маркетолог</div>
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Manual QA Engineer</div>
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
@@ -528,7 +526,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="mailto:hello@your_domain.com"
+          href="mailto:fedoreev.doc@gmail.com"
           target="_blank"
           aria-label="Email"
           rel="me noopener noreferrer"
@@ -546,7 +544,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://github.com/username"
+          href="https://github.com/DmitryFedoreev/"
           target="_blank"
           aria-label="Github"
           rel="me noopener noreferrer"
@@ -564,7 +562,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://t.me/username"
+          href="https://t.me/dmitryfedoreev"
           target="_blank"
           aria-label="Telegram"
           rel="me noopener noreferrer"
@@ -609,148 +607,16 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h2 class="relative group">Как запустить рекламу в Яндекс Директ: пошаговое руководство 
-    <div id="%D0%BA%D0%B0%D0%BA-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C-%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%83-%D0%B2-%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81-%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82-%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE" class="anchor"></div>
+<h2 class="relative group">Статья появится позже 
+    <div id="%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B6%D0%B5" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%BA%D0%B0%D0%BA-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C-%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%83-%D0%B2-%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81-%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%82-%D0%BF%D0%BE%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B6%D0%B5" aria-label="Якорь">#</a>
     </span>        
     
 </h2>
-<p>Рассмотрим, как запустить рекламу в Яндекс Директ, шаг за шагом.</p>
-
-
-<h3 class="relative group">Шаг 1: Создание аккаунта 
-    <div id="%D1%88%D0%B0%D0%B3-1-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%88%D0%B0%D0%B3-1-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Перед тем как начать, вам нужно создать аккаунт в Яндекс Директ. Если у вас уже есть аккаунт в Яндексе, вы можете использовать его. Если нет, выполните следующие шаги:</p>
-<ol>
-<li>Перейдите на сайт Яндекс Директ (<a href="https://direct.yandex.ru/" target="_blank">https://direct.yandex.ru/</a>).</li>
-<li>Нажмите на кнопку «Зарегистрироваться» и следуйте инструкциям.</li>
-<li>Подтвердите свою учетную запись.</li>
-</ol>
-
-
-<h3 class="relative group">Шаг 2: Настройка рекламной кампании 
-    <div id="%D1%88%D0%B0%D0%B3-2-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9-%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%88%D0%B0%D0%B3-2-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9-%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>После создания аккаунта вам нужно настроить свою первую рекламную кампанию:</p>
-<ol>
-<li>Выбор типа кампании: Яндекс Директ предлагает различные типы кампаний (поисковые, контекстно-медийные и смарт-баннеры). Выберите подходящий тип в зависимости от ваших целей.</li>
-<li>Установка параметров: Заполните основные параметры кампании:
-<ul>
-<li>Название кампании</li>
-<li>География показа: укажите, в каких регионах будет показана ваша реклама.</li>
-<li>Бюджет: установите дневной или месячный бюджет.</li>
-</ul>
-</li>
-</ol>
-
-
-<h3 class="relative group">Шаг 3: Создание объявления 
-    <div id="%D1%88%D0%B0%D0%B3-3-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%88%D0%B0%D0%B3-3-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Теперь вам нужно создать само объявление:</p>
-<ol>
-<li>Выбор формата объявления: выберите текстовое или графическое объявление. Для текстового объявления заполните:
-<ul>
-<li>Заголовок: должен быть коротким и цепляющим.</li>
-<li>Текст объявления: кратко опишите ваше предложение, выделите преимущества.</li>
-<li>Ссылка на сайт: укажите адрес страницы, на которую будет вести реклама.</li>
-</ul>
-</li>
-<li>Добавление ключевых слов: выберите ключевые слова, по которым вы хотите, чтобы ваша реклама показывалась. Используйте инструмент подбора ключевых слов от Яндекса для нахождения подходящих фраз.</li>
-</ol>
-
-
-<h3 class="relative group">Шаг 4: Настройка таргетинга 
-    <div id="%D1%88%D0%B0%D0%B3-4-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D1%82%D0%B0%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BD%D0%B3%D0%B0" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%88%D0%B0%D0%B3-4-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D1%82%D0%B0%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BD%D0%B3%D0%B0" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Яндекс Директ предлагает множество настроек таргетинга, чтобы ваша реклама доходила до целевой аудитории:</p>
-<ol>
-<li>Возраст и пол: укажите, на какую аудиторию ориентирована ваша реклама.</li>
-<li>Интересы: выберите интересы, которые соответствуют вашей целевой аудитории.</li>
-<li>Устройства: выберите, на каких устройствах будет показываться реклама (мобильные, планшеты, десктопы).</li>
-</ol>
-
-
-<h3 class="relative group">Шаг 5: Запуск и мониторинг 
-    <div id="%D1%88%D0%B0%D0%B3-5-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D0%B8-%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%88%D0%B0%D0%B3-5-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D0%B8-%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>После настройки кампании проверьте все параметры и запустите рекламу:</p>
-<ol>
-<li>Проверка: убедитесь, что все объявления и ключевые слова правильно настроены.</li>
-<li>Запуск: нажмите кнопку «Запустить кампанию».</li>
-<li>Мониторинг: регулярно проверяйте результаты. Используйте инструменты аналитики Яндекс Директ для отслеживания показателей эффективности (CTR, CPC, конверсии).</li>
-</ol>
-
-
-<h3 class="relative group">Шаг 6: Оптимизация 
-    <div id="%D1%88%D0%B0%D0%B3-6-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%88%D0%B0%D0%B3-6-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>После запуска рекламной кампании важно проводить ее оптимизацию:</p>
-<ol>
-<li>Анализ данных: изучайте статистику по объявлениям, определяйте, какие из них работают лучше.</li>
-<li>Корректировка бюджета: перераспределяйте бюджет между объявлениями, чтобы увеличить эффективность.</li>
-<li>Тестирование: проводите A/B тестирование различных форматов объявлений и ключевых слов.</li>
-</ol>
-
-
-<h3 class="relative group">Заключение 
-    <div id="%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Запуск рекламы в Яндекс Директ — это процесс, требующий внимательного подхода и регулярного анализа. Следуя этому пошаговому руководству, вы сможете эффективно использовать этот инструмент для продвижения своего бизнеса. Не забывайте адаптировать свою стратегию в зависимости от получаемых результатов и изменяющихся условий рынка.</p>
 
           
           
@@ -778,7 +644,7 @@
       </script>
       
       
-      <script type="text/javascript" src="/Blog/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
+      <script type="text/javascript" src="/blog/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
       
   
     </section>
@@ -794,7 +660,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/Blog/posts/awesome_article/">
+            <a class="flex group mr-3" href="/blog/posts/my_awesome_article/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -806,7 +672,7 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Как увеличить количество подписчиков на YouTube: личный опыт</span
+                  >Тестирование API с помощью Postman: Пошаговое руководство для новичков</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -818,6 +684,28 @@
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/blog/posts/awesome_article/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Как использовать Pytest для автоматизации тестов в Python</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>
@@ -846,7 +734,7 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      © 2024 Dmitry Fedoreev
+      © 2025 Dmitry
     </p>
     
 
@@ -873,7 +761,7 @@
   </script>
   
   
-  <script type="text/javascript" src="/Blog/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
+  <script type="text/javascript" src="/blog/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
 </footer>

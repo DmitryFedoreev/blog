@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/Blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Blog/livereload" data-no-instant defer></script>
+<html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="ru" />
@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Руководство: Как повысить продажи на email-рассылках &middot; Iskra</title>
-  <meta name="title" content="Руководство: Как повысить продажи на email-рассылках &middot; Iskra" />
+  <title>Тестирование API с помощью Postman: Пошаговое руководство для новичков &middot; FQA</title>
+  <meta name="title" content="Тестирование API с помощью Postman: Пошаговое руководство для новичков &middot; FQA" />
   
-  <meta name="description" content="Интернет-маркетолог" />
-  <meta name="keywords" content="программирование, Hugo, блог, " />
-  
-  
-  <link rel="canonical" href="http://localhost:1313/Blog/posts/my_awesome_article/" />
+  <meta name="description" content="Manual QA Engineer" />
+  <meta name="keywords" content="Postman, " />
   
   
+  <link rel="canonical" href="https://dmitryfedoreev.github.io/blog/posts/my_awesome_article/" />
   
   
   
@@ -26,11 +24,13 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/Blog/css/main.bundle.min.67eb0befb1fb57e6528684f3a2ff6e0606a82100504705b66488d54a9f3fda9c2605c9bf3b70163208427288637a7b4d1a168384c1115e417458eae6b44b329c.css"
-    integrity="sha512-Z&#43;sL77H7V&#43;ZShoTzov9uBgaoIQBQRwW2ZIjVSp8/2pwmBcm/O3AWMghCcohjentNGhaDhMERXkF0WOrmtEsynA==" />
   
   
-  <script type="text/javascript" src="/Blog/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+  <link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.b51d2badb5b1c786d8e4e4604c12216f0fa1a0b36a284fff0be67448ff5016dc35fea713f7fabc66ce7a2df24d0f8893e535853845c5b4dc360e1e0b943efa8c.css"
+    integrity="sha512-tR0rrbWxx4bY5ORgTBIhbw&#43;hoLNqKE//C&#43;Z0SP9QFtw1/qcT9/q8Zs56LfJND4iT5TWFOEXFtNw2Dh4LlD76jA==" />
+  
+  
+  <script type="text/javascript" src="/blog/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
     integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
   
   
@@ -39,19 +39,19 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/Blog/js/main.bundle.min.38829a2d46667b3048ed12a339f7a49584d39596241b4e61e344c689c257fec016f6e18ea8a349c0a7e2b35a3ef0ab2aed556a64100ada730fc9666da5b7c29a.js"
+  <script defer type="text/javascript" id="script-bundle" src="/blog/js/main.bundle.min.38829a2d46667b3048ed12a339f7a49584d39596241b4e61e344c689c257fec016f6e18ea8a349c0a7e2b35a3ef0ab2aed556a64100ada730fc9666da5b7c29a.js"
     integrity="sha512-OIKaLUZmezBI7RKjOfeklYTTlZYkG05h40TGicJX/sAW9uGOqKNJwKfis1o&#43;8Ksq7VVqZBAK2nMPyWZtpbfCmg==" data-copy="" data-copied=""></script>
   
   
   
-  <script src="/Blog/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
+  <script src="/blog/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
   
   
   
-  <link rel="apple-touch-icon" sizes="180x180" href="/Blog/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/Blog/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/Blog/favicon-16x16.png" />
-  <link rel="manifest" href="/Blog/site.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png" />
+  <link rel="manifest" href="/blog/site.webmanifest" />
   
   
   
@@ -59,16 +59,16 @@
   
   
   
-  <meta property="og:title" content="Руководство: Как повысить продажи на email-рассылках" />
-<meta property="og:description" content="Руководство: Как повысить продажи на email-рассылках # Email-маркетинг — это мощный инструмент, который может значительно увеличить ваши продажи." />
+  <meta property="og:title" content="Тестирование API с помощью Postman: Пошаговое руководство для новичков" />
+<meta property="og:description" content=" Статья появится позже # " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/Blog/posts/my_awesome_article/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://dmitryfedoreev.github.io/blog/posts/my_awesome_article/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-10-24T12:00:00+03:00" />
 <meta property="article:modified_time" content="2024-10-24T12:00:00+03:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Руководство: Как повысить продажи на email-рассылках"/>
-<meta name="twitter:description" content="Руководство: Как повысить продажи на email-рассылках # Email-маркетинг — это мощный инструмент, который может значительно увеличить ваши продажи."/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Тестирование API с помощью Postman: Пошаговое руководство для новичков"/>
+<meta name="twitter:description" content=" Статья появится позже # "/>
 
   
   <script type="application/ld+json">
@@ -76,12 +76,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Полезное",
-    "name": "Руководство: Как повысить продажи на email-рассылках",
-    "headline": "Руководство: Как повысить продажи на email-рассылках",
+    "name": "Тестирование API с помощью Postman: Пошаговое руководство для новичков",
+    "headline": "Тестирование API с помощью Postman: Пошаговое руководство для новичков",
     
-    "abstract": "Руководство: Как повысить продажи на email-рассылках # Email-маркетинг — это мощный инструмент, который может значительно увеличить ваши продажи.",
+    "abstract": " Статья появится позже # ",
     "inLanguage": "ru",
-    "url" : "http:\/\/localhost:1313\/Blog\/posts\/my_awesome_article\/",
+    "url" : "https:\/\/dmitryfedoreev.github.io\/blog\/posts\/my_awesome_article\/",
     "author" : {
       "@type": "Person",
       "name": "Dmitry"
@@ -92,10 +92,10 @@
     
     "dateModified": "2024-10-24T12:00:00\u002b03:00",
     
-    "keywords": ["программирование","Hugo","блог"],
+    "keywords": ["Postman"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "389"
+    "wordCount": "4"
   }]
   </script>
 
@@ -106,19 +106,19 @@
   
   
   
-  <link href="mailto:hello@your_domain.com" rel="me" />
+  <link href="mailto:fedoreev.doc@gmail.com" rel="me" />
   
   
-  <link href="https://github.com/username" rel="me" />
+  <link href="https://github.com/DmitryFedoreev/" rel="me" />
   
   
-  <link href="https://t.me/username" rel="me" />
+  <link href="https://t.me/dmitryfedoreev" rel="me" />
   
   
   
   
 
-<script src="/Blog/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+<script src="/blog/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
 
 
 
@@ -168,7 +168,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/Blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">Iskra</a>
+            <a href="/blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">FQA</a>
             
 
         </nav>
@@ -177,7 +177,7 @@
             
             
             
-  <a href="/Blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         About
@@ -188,7 +188,7 @@
 
             
             
-  <a href="/Blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Blog
@@ -199,7 +199,7 @@
 
             
             
-  <a href="/Blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Projects
@@ -210,7 +210,7 @@
 
             
             
-  <a href="/Blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Tags
@@ -330,7 +330,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             About
@@ -345,7 +345,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Blog
@@ -360,7 +360,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Projects
@@ -375,7 +375,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Tags
@@ -422,7 +422,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Руководство: Как повысить продажи на email-рассылках
+      Тестирование API с помощью Postman: Пошаговое руководство для новичков
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -467,7 +467,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>389 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">2 минут</span>
+  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>4 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">1 минута</span>
   
 
   
@@ -504,10 +504,8 @@
     
     
       
-        
-      
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="Dmitry" src="/Blog/img/logo_hu55af6199f055106ca50100dfdd2d47af_230685_192x192_fill_q75_box_center.jpg" />
+      alt="Dmitry" src="/blog/img/logo.jpg" />
     
   
   <div class="place-self-center">
@@ -520,7 +518,7 @@
     </div>
     
     
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">Интернет маркетолог</div>
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Manual QA Engineer</div>
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
@@ -528,7 +526,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="mailto:hello@your_domain.com"
+          href="mailto:fedoreev.doc@gmail.com"
           target="_blank"
           aria-label="Email"
           rel="me noopener noreferrer"
@@ -546,7 +544,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://github.com/username"
+          href="https://github.com/DmitryFedoreev/"
           target="_blank"
           aria-label="Github"
           rel="me noopener noreferrer"
@@ -564,7 +562,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://t.me/username"
+          href="https://t.me/dmitryfedoreev"
           target="_blank"
           aria-label="Telegram"
           rel="me noopener noreferrer"
@@ -609,148 +607,16 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h2 class="relative group">Руководство: Как повысить продажи на email-рассылках 
-    <div id="%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B2%D1%8B%D1%81%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8-%D0%BD%D0%B0-email-%D1%80%D0%B0%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%D1%85" class="anchor"></div>
+<h2 class="relative group">Статья появится позже 
+    <div id="%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B6%D0%B5" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B2%D1%8B%D1%81%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8-%D0%BD%D0%B0-email-%D1%80%D0%B0%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%D1%85" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B6%D0%B5" aria-label="Якорь">#</a>
     </span>        
     
 </h2>
-<p>Email-маркетинг — это мощный инструмент, который может значительно увеличить ваши продажи. Вот несколько практических шагов, которые помогут вам сделать ваши рассылки более эффективными.</p>
-
-
-<h3 class="relative group">1. Сегментируйте вашу аудиторию 
-    <div id="1-%D1%81%D0%B5%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%B2%D0%B0%D1%88%D1%83-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8E" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#1-%D1%81%D0%B5%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%B2%D0%B0%D1%88%D1%83-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8E" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Начните с разделения подписчиков на группы. Вы можете использовать разные критерии: интересы, поведение на сайте или демографические данные. Сегментация позволяет вам отправлять более целевые сообщения, которые лучше откликнутся на потребности вашей аудитории.</p>
-
-
-<h3 class="relative group">2. Персонализируйте контент 
-    <div id="2-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#2-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Не забывайте использовать имя подписчика в приветствии и в тексте письма. Кроме того, предлагайте товары на основе их предыдущих покупок. Персонализированные письма не только привлекают внимание, но и вызывают больший интерес к вашим предложениям.</p>
-
-
-<h3 class="relative group">3. Создайте привлекательный дизайн 
-    <div id="3-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B9%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#3-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B9%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Дизайн вашего письма играет важную роль. Используйте чистый и простой макет, который легко читается. Добавьте яркие изображения и убедительные призывы к действию (CTA), чтобы мотивировать подписчиков к клику.</p>
-
-
-<h3 class="relative group">4. Оптимизируйте время рассылки 
-    <div id="4-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F-%D1%80%D0%B0%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#4-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F-%D1%80%D0%B0%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Важно понимать, когда ваша аудитория чаще всего открывает письма. Проанализируйте статистику и отправляйте рассылки в оптимальное время. Экспериментируйте с различными днями и часами, чтобы найти наиболее удачное время.</p>
-
-
-<h3 class="relative group">5. Используйте триггерные письма 
-    <div id="5-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-%D1%82%D1%80%D0%B8%D0%B3%D0%B3%D0%B5%D1%80%D0%BD%D1%8B%D0%B5-%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#5-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-%D1%82%D1%80%D0%B8%D0%B3%D0%B3%D0%B5%D1%80%D0%BD%D1%8B%D0%B5-%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Автоматические триггерные письма могут существенно повысить ваши продажи. Например, отправляйте напоминания о заброшенных корзинах, благодарности за покупки или специальные предложения для постоянных клиентов. Эти письма поддерживают контакт и увеличивают вероятность повторной покупки.</p>
-
-
-<h3 class="relative group">6. Тестируйте и анализируйте 
-    <div id="6-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%B8-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#6-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%B8-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Не забывайте о важности тестирования. Проводите A/B тесты заголовков, контента и призывов к действию, чтобы выяснить, что работает лучше. Анализируйте открываемость, кликабельность и конверсии, чтобы постоянно улучшать свои рассылки.</p>
-
-
-<h3 class="relative group">7. Предлагайте ценность 
-    <div id="7-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%B0%D0%B3%D0%B0%D0%B9%D1%82%D0%B5-%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#7-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%B0%D0%B3%D0%B0%D0%B9%D1%82%D0%B5-%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Ваши письма должны не только продавать, но и предоставлять подписчикам полезную информацию. Делитесь советами, новыми поступлениями, скидками и эксклюзивными предложениями. Когда подписчики видят ценность в ваших письмах, они с большей вероятностью откликнутся.</p>
-
-
-<h3 class="relative group">8. Поддерживайте регулярность рассылок 
-    <div id="8-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%B2%D0%B0%D0%B9%D1%82%D0%B5-%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%80%D0%B0%D1%81%D1%81%D1%8B%D0%BB%D0%BE%D0%BA" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#8-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%B2%D0%B0%D0%B9%D1%82%D0%B5-%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%80%D0%B0%D1%81%D1%81%D1%8B%D0%BB%D0%BE%D0%BA" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Установите график отправки, чтобы ваши подписчики знали, когда ждать ваши письма. Это помогает создавать ожидание и поддерживать интерес. Главное — найти баланс, чтобы не перегружать пользователей слишком частыми письмами.</p>
-
-
-<h3 class="relative group">9. Собирайте обратную связь 
-    <div id="9-%D1%81%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D0%B9%D1%82%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%83%D1%8E-%D1%81%D0%B2%D1%8F%D0%B7%D1%8C" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#9-%D1%81%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D0%B9%D1%82%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%83%D1%8E-%D1%81%D0%B2%D1%8F%D0%B7%D1%8C" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Регулярно спрашивайте своих подписчиков о том, что им нравится и что они хотели бы улучшить. Эта информация поможет вам адаптировать контент и сделать его более релевантным.</p>
-
-
-<h3 class="relative group">10. Обновляйте базу подписчиков 
-    <div id="10-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B9%D1%82%D0%B5-%D0%B1%D0%B0%D0%B7%D1%83-%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%BE%D0%B2" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#10-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B9%D1%82%D0%B5-%D0%B1%D0%B0%D0%B7%D1%83-%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%BE%D0%B2" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Не забывайте о чистке вашей базы. Удаляйте неактивных подписчиков и активно привлекайте новых. Стимулируйте подписку через специальные предложения и интересный контент, чтобы поддерживать свежесть вашей базы.</p>
-<p>Следуя этим рекомендациям, вы сможете сделать свои email-рассылки более эффективными и значительно увеличить продажи. Удачи!</p>
 
           
           
@@ -778,7 +644,7 @@
       </script>
       
       
-      <script type="text/javascript" src="/Blog/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
+      <script type="text/javascript" src="/blog/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
       
   
     </section>
@@ -797,11 +663,11 @@
         </span>
         <span>
           
-            <a class="flex text-right group ml-3" href="/Blog/posts/awesome_article/">
+            <a class="flex text-right group ml-3" href="/blog/posts/my_blog/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Как увеличить количество подписчиков на YouTube: личный опыт</span
+                  >Как эффективно писать тест-кейсы</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -846,7 +712,7 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      © 2024 Dmitry Fedoreev
+      © 2025 Dmitry
     </p>
     
 
@@ -873,7 +739,7 @@
   </script>
   
   
-  <script type="text/javascript" src="/Blog/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
+  <script type="text/javascript" src="/blog/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
 </footer>

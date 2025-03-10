@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/Blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Blog/livereload" data-no-instant defer></script>
+<html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="ru" />
@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Как увеличить количество подписчиков на YouTube: личный опыт &middot; Iskra</title>
-  <meta name="title" content="Как увеличить количество подписчиков на YouTube: личный опыт &middot; Iskra" />
+  <title>Как использовать Pytest для автоматизации тестов в Python &middot; FQA</title>
+  <meta name="title" content="Как использовать Pytest для автоматизации тестов в Python &middot; FQA" />
   
-  <meta name="description" content="Интернет-маркетолог" />
-  <meta name="keywords" content="программирование, Hugo, блог, " />
-  
-  
-  <link rel="canonical" href="http://localhost:1313/Blog/posts/awesome_article/" />
+  <meta name="description" content="Manual QA Engineer" />
+  <meta name="keywords" content="Pytest, " />
   
   
+  <link rel="canonical" href="https://dmitryfedoreev.github.io/blog/posts/awesome_article/" />
   
   
   
@@ -26,11 +24,13 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/Blog/css/main.bundle.min.67eb0befb1fb57e6528684f3a2ff6e0606a82100504705b66488d54a9f3fda9c2605c9bf3b70163208427288637a7b4d1a168384c1115e417458eae6b44b329c.css"
-    integrity="sha512-Z&#43;sL77H7V&#43;ZShoTzov9uBgaoIQBQRwW2ZIjVSp8/2pwmBcm/O3AWMghCcohjentNGhaDhMERXkF0WOrmtEsynA==" />
   
   
-  <script type="text/javascript" src="/Blog/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+  <link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.b51d2badb5b1c786d8e4e4604c12216f0fa1a0b36a284fff0be67448ff5016dc35fea713f7fabc66ce7a2df24d0f8893e535853845c5b4dc360e1e0b943efa8c.css"
+    integrity="sha512-tR0rrbWxx4bY5ORgTBIhbw&#43;hoLNqKE//C&#43;Z0SP9QFtw1/qcT9/q8Zs56LfJND4iT5TWFOEXFtNw2Dh4LlD76jA==" />
+  
+  
+  <script type="text/javascript" src="/blog/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
     integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
   
   
@@ -39,19 +39,19 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/Blog/js/main.bundle.min.38829a2d46667b3048ed12a339f7a49584d39596241b4e61e344c689c257fec016f6e18ea8a349c0a7e2b35a3ef0ab2aed556a64100ada730fc9666da5b7c29a.js"
+  <script defer type="text/javascript" id="script-bundle" src="/blog/js/main.bundle.min.38829a2d46667b3048ed12a339f7a49584d39596241b4e61e344c689c257fec016f6e18ea8a349c0a7e2b35a3ef0ab2aed556a64100ada730fc9666da5b7c29a.js"
     integrity="sha512-OIKaLUZmezBI7RKjOfeklYTTlZYkG05h40TGicJX/sAW9uGOqKNJwKfis1o&#43;8Ksq7VVqZBAK2nMPyWZtpbfCmg==" data-copy="" data-copied=""></script>
   
   
   
-  <script src="/Blog/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
+  <script src="/blog/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
   
   
   
-  <link rel="apple-touch-icon" sizes="180x180" href="/Blog/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/Blog/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/Blog/favicon-16x16.png" />
-  <link rel="manifest" href="/Blog/site.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png" />
+  <link rel="manifest" href="/blog/site.webmanifest" />
   
   
   
@@ -59,16 +59,16 @@
   
   
   
-  <meta property="og:title" content="Как увеличить количество подписчиков на YouTube: личный опыт" />
-<meta property="og:description" content="В этой статье я расскажу, как мне удалось увеличить количество подписчиков на канале с 3 000 до 33 000 менее чем за 7 месяцев и поделюсь стратегиями, которые привели к этому результату." />
+  <meta property="og:title" content="Как использовать Pytest для автоматизации тестов в Python" />
+<meta property="og:description" content="Статья появится позже" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/Blog/posts/awesome_article/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://dmitryfedoreev.github.io/blog/posts/awesome_article/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-10-24T12:00:00+03:00" />
 <meta property="article:modified_time" content="2024-10-24T12:00:00+03:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Как увеличить количество подписчиков на YouTube: личный опыт"/>
-<meta name="twitter:description" content="В этой статье я расскажу, как мне удалось увеличить количество подписчиков на канале с 3 000 до 33 000 менее чем за 7 месяцев и поделюсь стратегиями, которые привели к этому результату."/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Как использовать Pytest для автоматизации тестов в Python"/>
+<meta name="twitter:description" content="Статья появится позже"/>
 
   
   <script type="application/ld+json">
@@ -76,12 +76,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Полезное",
-    "name": "Как увеличить количество подписчиков на YouTube: личный опыт",
-    "headline": "Как увеличить количество подписчиков на YouTube: личный опыт",
+    "name": "Как использовать Pytest для автоматизации тестов в Python",
+    "headline": "Как использовать Pytest для автоматизации тестов в Python",
     
-    "abstract": "В этой статье я расскажу, как мне удалось увеличить количество подписчиков на канале с 3 000 до 33 000 менее чем за 7 месяцев и поделюсь стратегиями, которые привели к этому результату.",
+    "abstract": "Статья появится позже",
     "inLanguage": "ru",
-    "url" : "http:\/\/localhost:1313\/Blog\/posts\/awesome_article\/",
+    "url" : "https:\/\/dmitryfedoreev.github.io\/blog\/posts\/awesome_article\/",
     "author" : {
       "@type": "Person",
       "name": "Dmitry"
@@ -92,10 +92,10 @@
     
     "dateModified": "2024-10-24T12:00:00\u002b03:00",
     
-    "keywords": ["программирование","Hugo","блог"],
+    "keywords": ["Pytest"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "319"
+    "wordCount": "3"
   }]
   </script>
 
@@ -106,19 +106,19 @@
   
   
   
-  <link href="mailto:hello@your_domain.com" rel="me" />
+  <link href="mailto:fedoreev.doc@gmail.com" rel="me" />
   
   
-  <link href="https://github.com/username" rel="me" />
+  <link href="https://github.com/DmitryFedoreev/" rel="me" />
   
   
-  <link href="https://t.me/username" rel="me" />
+  <link href="https://t.me/dmitryfedoreev" rel="me" />
   
   
   
   
 
-<script src="/Blog/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+<script src="/blog/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
 
 
 
@@ -168,7 +168,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/Blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">Iskra</a>
+            <a href="/blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">FQA</a>
             
 
         </nav>
@@ -177,7 +177,7 @@
             
             
             
-  <a href="/Blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         About
@@ -188,7 +188,7 @@
 
             
             
-  <a href="/Blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Blog
@@ -199,7 +199,7 @@
 
             
             
-  <a href="/Blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Projects
@@ -210,7 +210,7 @@
 
             
             
-  <a href="/Blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         Tags
@@ -330,7 +330,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             About
@@ -345,7 +345,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Blog
@@ -360,7 +360,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Projects
@@ -375,7 +375,7 @@
 
                     
   <li class="mt-1">
-    <a href="/Blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Tags
@@ -422,7 +422,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Как увеличить количество подписчиков на YouTube: личный опыт
+      Как использовать Pytest для автоматизации тестов в Python
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -467,7 +467,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>319 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">2 минут</span>
+  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>3 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">1 минута</span>
   
 
   
@@ -504,10 +504,8 @@
     
     
       
-        
-      
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="Dmitry" src="/Blog/img/logo_hu55af6199f055106ca50100dfdd2d47af_230685_192x192_fill_q75_box_center.jpg" />
+      alt="Dmitry" src="/blog/img/logo.jpg" />
     
   
   <div class="place-self-center">
@@ -520,7 +518,7 @@
     </div>
     
     
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">Интернет маркетолог</div>
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Manual QA Engineer</div>
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
@@ -528,7 +526,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="mailto:hello@your_domain.com"
+          href="mailto:fedoreev.doc@gmail.com"
           target="_blank"
           aria-label="Email"
           rel="me noopener noreferrer"
@@ -546,7 +544,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://github.com/username"
+          href="https://github.com/DmitryFedoreev/"
           target="_blank"
           aria-label="Github"
           rel="me noopener noreferrer"
@@ -564,7 +562,7 @@
       
         <a
           class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://t.me/username"
+          href="https://t.me/dmitryfedoreev"
           target="_blank"
           aria-label="Telegram"
           rel="me noopener noreferrer"
@@ -607,124 +605,7 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>В этой статье я расскажу, как мне удалось увеличить количество подписчиков на канале с 3 000 до 33 000 менее чем за 7 месяцев и поделюсь стратегиями, которые привели к этому результату.</p>
-
-
-<h3 class="relative group">1. Анализ целевой аудитории 
-    <div id="1-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D1%86%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#1-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D1%86%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Первым шагом к успешному продвижению было понимание аудитории. Я использовал инструменты аналитики YouTube и сервис VidIQ, чтобы изучить интересы и предпочтения моих зрителей. Это позволило мне создавать контент, который действительно интересует аудиторию.</p>
-
-
-<h3 class="relative group">2. Разработка контентной стратегии 
-    <div id="2-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#2-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>На основе анализа я разработал контент-план, включающий регулярные публикации и разнообразные форматы видео. Это помогло поддерживать интерес зрителей и привлекать новых подписчиков.</p>
-
-
-<h3 class="relative group">3. Оптимизация видео 
-    <div id="3-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#3-%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>SEO-оптимизация играла ключевую роль. Я тщательно подбирал ключевые слова для заголовков, описаний и тегов. Привлекательные миниатюры и заголовки также способствовали увеличению кликов.</p>
-
-
-<h3 class="relative group">4. Продвижение через социальные сети 
-    <div id="4-%D0%BF%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%81%D0%B5%D1%82%D0%B8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#4-%D0%BF%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%81%D0%B5%D1%82%D0%B8" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Я активно делал репосты видео на другие платформы социальных сетей для дополнительного продвижения ключевых видео. Это тоже увеличило охват и привлекло аудиторию.</p>
-
-
-<h3 class="relative group">5. Взаимодействие с аудиторией 
-    <div id="5-%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D1%81-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%B9" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#5-%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D1%81-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%B9" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Регулярно отвечал на комментарии, проводил конкурсы и опросы. Это повысило вовлеченность и лояльность зрителей.</p>
-
-
-<h3 class="relative group">6. Анализ и адаптация 
-    <div id="6-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D0%B8-%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B0%D1%86%D0%B8%D1%8F" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#6-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D0%B8-%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B0%D1%86%D0%B8%D1%8F" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Регулярный анализ данных с помощью YouTube позволял адаптировать стратегию и улучшать результаты. Я постоянно тестировал новые подходы и корректировал контент-план.</p>
-
-
-<h3 class="relative group">7. Создание привлекательных обложек 
-    <div id="7-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%B5%D0%BA" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#7-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%B5%D0%BA" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Хорошо продуманные обложки не только выделяются на фоне других видео, но и значительно повышают уровень вовлеченности, что, в свою очередь, способствовало росту числа подписчиков и просмотров.</p>
-
-
-<h3 class="relative group">Примеры успешных кейсов 
-    <div id="%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D1%85-%D0%BA%D0%B5%D0%B9%D1%81%D0%BE%D0%B2" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D1%85-%D0%BA%D0%B5%D0%B9%D1%81%D0%BE%D0%B2" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Одним из наиболее успешных видео на моем канале стал ролик, в котором мы продемонстрировали маленькую деталь брюк. Это видео привлекло почти 13 тысяч новых подписчиков (на момент декабря 2023 года) и на данный момент имеет более 11 миллионов просмотров.</p>
-
-
-<h3 class="relative group">Выводы и рекомендации 
-    <div id="%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B-%D0%B8-%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B-%D0%B8-%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8" aria-label="Якорь">#</a>
-    </span>        
-    
-</h3>
-<p>Для успешного роста YouTube-канала важно понимать свою аудиторию, оптимизировать контент и активно продвигать его. Анализ данных и взаимодействие с аудиторией также играют ключевую роль. Успех на YouTube требует комплексного подхода и постоянного анализа. Следуя этим рекомендациям, вы сможете значительно увеличить количество подписчиков и улучшить результаты вашего канала.</p>
+          <p>Статья появится позже</p>
 
           
           
@@ -752,7 +633,7 @@
       </script>
       
       
-      <script type="text/javascript" src="/Blog/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
+      <script type="text/javascript" src="/blog/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
       
   
     </section>
@@ -768,7 +649,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/Blog/posts/my_awesome_article/">
+            <a class="flex group mr-3" href="/blog/posts/my_blog/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -780,7 +661,7 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Руководство: Как повысить продажи на email-рассылках</span
+                  >Как эффективно писать тест-кейсы</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -792,28 +673,6 @@
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/Blog/posts/my_blog/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Как запустить рекламу в Яндекс Директ: пошаговое руководство</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>
@@ -842,7 +701,7 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      © 2024 Dmitry Fedoreev
+      © 2025 Dmitry
     </p>
     
 
@@ -869,7 +728,7 @@
   </script>
   
   
-  <script type="text/javascript" src="/Blog/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
+  <script type="text/javascript" src="/blog/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
 </footer>
