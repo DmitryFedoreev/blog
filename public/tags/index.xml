@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on FQA</title>
-    <link>http://localhost:1313/blog/tags/</link>
+    <link>https://dmitryfedoreev.github.io/blog/tags/</link>
     <description>Recent content in Tags on FQA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <managingEditor>youremail@example.com (Dmitry)</managingEditor>
     <webMaster>youremail@example.com (Dmitry)</webMaster>
     <copyright>© 2025 Dmitry</copyright>
-    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postman</title>
-      <link>http://localhost:1313/blog/tags/postman/</link>
+      <link>https://dmitryfedoreev.github.io/blog/tags/postman/</link>
       <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
       <author>youremail@example.com (Dmitry)</author>
-      <guid>http://localhost:1313/blog/tags/postman/</guid>
+      <guid>https://dmitryfedoreev.github.io/blog/tags/postman/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Pytest</title>
-      <link>http://localhost:1313/blog/tags/pytest/</link>
+      <link>https://dmitryfedoreev.github.io/blog/tags/pytest/</link>
       <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
       <author>youremail@example.com (Dmitry)</author>
-      <guid>http://localhost:1313/blog/tags/pytest/</guid>
+      <guid>https://dmitryfedoreev.github.io/blog/tags/pytest/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Тест-Кейсы</title>
-      <link>http://localhost:1313/blog/tags/%D1%82%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B/</link>
+      <link>https://dmitryfedoreev.github.io/blog/tags/%D1%82%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B/</link>
       <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
       <author>youremail@example.com (Dmitry)</author>
-      <guid>http://localhost:1313/blog/tags/%D1%82%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B/</guid>
+      <guid>https://dmitryfedoreev.github.io/blog/tags/%D1%82%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B/</guid>
       <description></description>
       
     </item>
