@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Добро пожаловать на мой сайт on FQA</title>
+    <link>https://dmitryfedoreev.github.io/blog/</link>
+    <description>Recent content in Добро пожаловать на мой сайт on FQA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <managingEditor>youremail@example.com (Dmitry)</managingEditor>
+    <webMaster>youremail@example.com (Dmitry)</webMaster>
+    <copyright>© 2025 Dmitry</copyright>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как использовать Pytest для автоматизации тестов в Python</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/awesome_article/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/awesome_article/</guid>
+      <description>Статья появится позже</description>
+      
+    </item>
+    
+    <item>
+      <title>Как эффективно писать тест-кейсы</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/my_blog/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/my_blog/</guid>
+      <description> Статья появится позже # </description>
+      
+    </item>
+    
+    <item>
+      <title>Тестирование API с помощью Postman: Пошаговое руководство для новичков</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/my_awesome_article/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/my_awesome_article/</guid>
+      <description> Статья появится позже # </description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://dmitryfedoreev.github.io/blog/about/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/about/</guid>
+      <description>Тестирование: Jira, Zephyr.</description>
+      
+    </item>
+    
+    <item>
+      <title>Мои проекты</title>
+      <link>https://dmitryfedoreev.github.io/blog/projects/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/projects/</guid>
+      <description>В каждый проект можно зайти и ознакомиться с деталями более подробно.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
