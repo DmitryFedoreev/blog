@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="ru" />
@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Как эффективно писать тест-кейсы &middot; FQA</title>
-  <meta name="title" content="Как эффективно писать тест-кейсы &middot; FQA" />
+  <title>REST API &middot; BugFinder</title>
+  <meta name="title" content="REST API &middot; BugFinder" />
   
   <meta name="description" content="Manual QA Engineer" />
-  <meta name="keywords" content="тест-кейсы, " />
+  <meta name="keywords" content="REST, " />
   
   
-  <link rel="canonical" href="https://dmitryfedoreev.github.io/blog/posts/my_blog/" />
+  <link rel="canonical" href="http://localhost:1313/blog/posts/my_blog/" />
   
   
   
@@ -59,16 +59,16 @@
   
   
   
-  <meta property="og:title" content="Как эффективно писать тест-кейсы" />
-<meta property="og:description" content=" Статья появится позже # " />
+  <meta property="og:title" content="REST API" />
+<meta property="og:description" content="REST API (Representational State Transfer) – это архитектурный стиль взаимодействия веб-сервисов." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://dmitryfedoreev.github.io/blog/posts/my_blog/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://localhost:1313/blog/posts/my_blog/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-10-24T12:00:00+03:00" />
 <meta property="article:modified_time" content="2024-10-24T12:00:00+03:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Как эффективно писать тест-кейсы"/>
-<meta name="twitter:description" content=" Статья появится позже # "/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="REST API"/>
+<meta name="twitter:description" content="REST API (Representational State Transfer) – это архитектурный стиль взаимодействия веб-сервисов."/>
 
   
   <script type="application/ld+json">
@@ -76,12 +76,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Полезное",
-    "name": "Как эффективно писать тест-кейсы",
-    "headline": "Как эффективно писать тест-кейсы",
+    "name": "REST API",
+    "headline": "REST API",
     
-    "abstract": " Статья появится позже # ",
+    "abstract": "REST API (Representational State Transfer) – это архитектурный стиль взаимодействия веб-сервисов.",
     "inLanguage": "ru",
-    "url" : "https:\/\/dmitryfedoreev.github.io\/blog\/posts\/my_blog\/",
+    "url" : "http:\/\/localhost:1313\/blog\/posts\/my_blog\/",
     "author" : {
       "@type": "Person",
       "name": "Dmitry"
@@ -92,10 +92,10 @@
     
     "dateModified": "2024-10-24T12:00:00\u002b03:00",
     
-    "keywords": ["тест-кейсы"],
+    "keywords": ["REST"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "4"
+    "wordCount": "359"
   }]
   </script>
 
@@ -168,7 +168,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">FQA</a>
+            <a href="/blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">BugFinder</a>
             
 
         </nav>
@@ -422,7 +422,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Как эффективно писать тест-кейсы
+      REST API
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -467,7 +467,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>4 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">1 минута</span>
+  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>359 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">2 минут</span>
   
 
   
@@ -607,16 +607,187 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h2 class="relative group">Статья появится позже 
-    <div id="%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B6%D0%B5" class="anchor"></div>
+<h3 class="relative group">REST API (Representational State Transfer) – это архитектурный стиль взаимодействия веб-сервисов. 
+    <div id="rest-api-representational-state-transfer--%D1%8D%D1%82%D0%BE-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9-%D1%81%D1%82%D0%B8%D0%BB%D1%8C-%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%BE%D0%B2" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B6%D0%B5" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#rest-api-representational-state-transfer--%D1%8D%D1%82%D0%BE-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9-%D1%81%D1%82%D0%B8%D0%BB%D1%8C-%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%BE%D0%B2" aria-label="Якорь">#</a>
     </span>        
     
-</h2>
+</h3>
+<p>Он основан на простоте, масштабируемости и использовании стандартных методов HTTP. REST активно применяется при разработке веб-приложений, мобильных сервисов и интеграции различных систем.</p>
+<p>REST API использует HTTP-запросы для обмена данными между клиентом (например, браузером или мобильным приложением) и сервером.</p>
+<table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Описание</th>
+<th>Пример запроса</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>GET</strong></td>
+<td>Получение данных</td>
+<td><code>GET /users</code> – список пользователей</td>
+</tr>
+<tr>
+<td><strong>POST</strong></td>
+<td>Создание нового ресурса</td>
+<td><code>POST /users</code> – создание пользователя</td>
+</tr>
+<tr>
+<td><strong>PUT</strong></td>
+<td>Полное обновление ресурса</td>
+<td><code>PUT /users/1</code> – обновление данных</td>
+</tr>
+<tr>
+<td><strong>PATCH</strong></td>
+<td>Частичное обновление</td>
+<td><code>PATCH /users/1</code> – изменение email</td>
+</tr>
+<tr>
+<td><strong>DELETE</strong></td>
+<td>Удаление ресурса</td>
+<td><code>DELETE /users/1</code> – удаление пользователя</td>
+</tr>
+</tbody>
+</table>
+
+
+<h3 class="relative group">Ключевые принципы REST 
+    <div id="%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B2%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-rest" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B2%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-rest" aria-label="Якорь">#</a>
+    </span>        
+    
+</h3>
+
+
+<h4 class="relative group">1. Клиент-серверная архитектура 
+    <div id="1-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Клиент (например, веб-приложение) и сервер (база данных, бизнес-логика) отделены друг от друга. Клиент делает запросы, сервер отвечает, но они не зависят друг от друга.</p>
+
+
+<h4 class="relative group">2. Отсутствие состояния (Statelessness) 
+    <div id="2-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F-statelessness" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F-statelessness" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Каждый запрос к серверу не хранит информацию о предыдущих запросах. Все необходимые данные должны передаваться в запросе.</p>
+<p>❌ Плохо: Сервер запоминает авторизацию клиента.</p>
+<p>✅ Хорошо: Клиент передает Authorization-токен в каждом запросе.</p>
+
+
+<h4 class="relative group">3. Кэширование (Caching) 
+    <div id="3-%D0%BA%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-caching" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-%D0%BA%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-caching" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>REST API поддерживает кэширование, чтобы снизить нагрузку на сервер и ускорить работу приложения.</p>
+<ul>
+<li>Использование заголовков Cache-Control, ETag для хранения копий данных на клиенте.</li>
+</ul>
+
+
+<h4 class="relative group">4. Единообразие интерфейса (Uniform Interface) 
+    <div id="4-%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D0%B0-uniform-interface" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-%D0%B5%D0%B4%D0%B8%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D0%B0-uniform-interface" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Все ресурсы API должны быть организованы по единым правилам:</p>
+<ul>
+<li>Четкие URL-адреса (/users, /orders/123).</li>
+<li>Использование HTTP-методов по назначению.</li>
+<li>Формат данных JSON (чаще всего).</li>
+</ul>
+
+
+<h4 class="relative group">5. Разделение клиентской и серверной логики (Layered System) 
+    <div id="5-%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%BE%D0%B9-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9-%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B8-layered-system" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%BE%D0%B9-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9-%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B8-layered-system" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>API может быть многослойным – клиент не знает, через какие сервисы проходит запрос. Это повышает безопасность и гибкость системы.
+Пример работы REST API
+Запрос на получение списка пользователей</p>
+<pre tabindex="0"><code>GET /users HTTP/1.1
+Host: api.example.com
+Accept: application/json
+</code></pre><p>Ответ сервера</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Alice&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;email&#34;</span><span class="p">:</span> <span class="s2">&#34;alice@example.com&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span><span class="err">,</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Bob&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;email&#34;</span><span class="p">:</span> <span class="s2">&#34;bob@example.com&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></div>
+
+<h4 class="relative group">Преимущества REST API 
+    <div id="%D0%BF%D1%80%D0%B5%D0%B8%D0%BC%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0-rest-api" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D0%BF%D1%80%D0%B5%D0%B8%D0%BC%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0-rest-api" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>✅ Простота – Использует стандартные HTTP-методы.</p>
+<p>✅ Масштабируемость – Подходит для высоконагруженных систем.</p>
+<p>✅ Гибкость – Может использоваться с любыми языками программирования.</p>
+<p>✅ Кэширование – Ускоряет работу приложения.</p>
+
+
+<h3 class="relative group">REST API – это универсальный и удобный способ организации взаимодействия между клиентом и сервером. 
+    <div id="rest-api--%D1%8D%D1%82%D0%BE-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B8-%D1%83%D0%B4%D0%BE%D0%B1%D0%BD%D1%8B%D0%B9-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%BC-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#rest-api--%D1%8D%D1%82%D0%BE-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B8-%D1%83%D0%B4%D0%BE%D0%B1%D0%BD%D1%8B%D0%B9-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%BC-%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC" aria-label="Якорь">#</a>
+    </span>        
+    
+</h3>
+<p>Он использует HTTP-протокол, простые URL и JSON-формат, что делает его идеальным для веб-приложений и мобильных сервисов.</p>
+<p>Понимание принципов REST поможет разрабатывать надежные и масштабируемые API, которые легко интегрировать с различными системами.</p>
 
           
           
@@ -672,7 +843,7 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Тестирование API с помощью Postman: Пошаговое руководство для новичков</span
+                  >Принципы тестирования</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -684,28 +855,6 @@
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/blog/posts/awesome_article/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Как использовать Pytest для автоматизации тестов в Python</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>

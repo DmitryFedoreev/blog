@@ -2,7 +2,7 @@ disabled = false
 languageCode = "ru"
 languageName = "Russian"
 weight = 1
-title = "FQA"
+title = "QA Blog"
 
 [params]
   displayName = "ru"
@@ -16,7 +16,7 @@ title = "FQA"
 
 [params.author]
    name = "Dmitry"
-   email = "youremail@example.com"
+   email = "fedoreev.qa@gmail.com"
    image = "img/logo.jpg"
    imageQuality = 96
    headline = "Manual QA Engineer"

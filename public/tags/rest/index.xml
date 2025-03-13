@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REST on QA Blog</title>
+    <link>https://dmitryfedoreev.github.io/blog/tags/rest/</link>
+    <description>Recent content in REST on QA Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <managingEditor>fedoreev.qa@gmail.com (Dmitry)</managingEditor>
+    <webMaster>fedoreev.qa@gmail.com (Dmitry)</webMaster>
+    <copyright>© 2025 Dmitry</copyright>
+    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/blog/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>REST API</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/rest-api/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>fedoreev.qa@gmail.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/rest-api/</guid>
+      <description>REST API (Representational State Transfer) – это архитектурный стиль взаимодействия веб-сервисов.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

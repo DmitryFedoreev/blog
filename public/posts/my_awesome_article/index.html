@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="ru" />
@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Тестирование API с помощью Postman: Пошаговое руководство для новичков &middot; FQA</title>
-  <meta name="title" content="Тестирование API с помощью Postman: Пошаговое руководство для новичков &middot; FQA" />
+  <title>Принципы тестирования &middot; BugFinder</title>
+  <meta name="title" content="Принципы тестирования &middot; BugFinder" />
   
   <meta name="description" content="Manual QA Engineer" />
-  <meta name="keywords" content="Postman, " />
+  <meta name="keywords" content="База, " />
   
   
-  <link rel="canonical" href="https://dmitryfedoreev.github.io/blog/posts/my_awesome_article/" />
+  <link rel="canonical" href="http://localhost:1313/blog/posts/my_awesome_article/" />
   
   
   
@@ -59,16 +59,16 @@
   
   
   
-  <meta property="og:title" content="Тестирование API с помощью Postman: Пошаговое руководство для новичков" />
-<meta property="og:description" content=" Статья появится позже # " />
+  <meta property="og:title" content="Принципы тестирования" />
+<meta property="og:description" content="Тестирование – это не просто поиск багов, а системный процесс, направленный на повышение качества продукта." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://dmitryfedoreev.github.io/blog/posts/my_awesome_article/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://localhost:1313/blog/posts/my_awesome_article/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-10-24T12:00:00+03:00" />
 <meta property="article:modified_time" content="2024-10-24T12:00:00+03:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Тестирование API с помощью Postman: Пошаговое руководство для новичков"/>
-<meta name="twitter:description" content=" Статья появится позже # "/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Принципы тестирования"/>
+<meta name="twitter:description" content="Тестирование – это не просто поиск багов, а системный процесс, направленный на повышение качества продукта."/>
 
   
   <script type="application/ld+json">
@@ -76,12 +76,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Полезное",
-    "name": "Тестирование API с помощью Postman: Пошаговое руководство для новичков",
-    "headline": "Тестирование API с помощью Postman: Пошаговое руководство для новичков",
+    "name": "Принципы тестирования",
+    "headline": "Принципы тестирования",
     
-    "abstract": " Статья появится позже # ",
+    "abstract": "Тестирование – это не просто поиск багов, а системный процесс, направленный на повышение качества продукта.",
     "inLanguage": "ru",
-    "url" : "https:\/\/dmitryfedoreev.github.io\/blog\/posts\/my_awesome_article\/",
+    "url" : "http:\/\/localhost:1313\/blog\/posts\/my_awesome_article\/",
     "author" : {
       "@type": "Person",
       "name": "Dmitry"
@@ -92,10 +92,10 @@
     
     "dateModified": "2024-10-24T12:00:00\u002b03:00",
     
-    "keywords": ["Postman"],
+    "keywords": ["База"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "4"
+    "wordCount": "476"
   }]
   </script>
 
@@ -168,7 +168,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">FQA</a>
+            <a href="/blog/" class="text-base font-medium text-gray-500 hover:text-gray-900">BugFinder</a>
             
 
         </nav>
@@ -422,7 +422,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Тестирование API с помощью Postman: Пошаговое руководство для новичков
+      Принципы тестирования
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -467,7 +467,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>4 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">1 минута</span>
+  <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>476 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">3 минут</span>
   
 
   
@@ -607,16 +607,161 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h2 class="relative group">Статья появится позже 
-    <div id="%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B6%D0%B5" class="anchor"></div>
+<h3 class="relative group">Тестирование – это не просто поиск багов, а системный процесс, направленный на повышение качества продукта. В его основе лежат семь ключевых принципов, которые помогают сделать тестирование эффективным и осмысленным. 
+    <div id="%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5--%D1%8D%D1%82%D0%BE-%D0%BD%D0%B5-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%B1%D0%B0%D0%B3%D0%BE%D0%B2-%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0-%D0%B2-%D0%B5%D0%B3%D0%BE-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5-%D0%BB%D0%B5%D0%B6%D0%B0%D1%82-%D1%81%D0%B5%D0%BC%D1%8C-%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B2%D1%8B%D1%85-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D0%BE%D0%B2-%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5-%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D1%8E%D1%82-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BE%D1%81%D0%BC%D1%8B%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BF%D0%BE%D1%8F%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%B7%D0%B6%D0%B5" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5--%D1%8D%D1%82%D0%BE-%D0%BD%D0%B5-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%B1%D0%B0%D0%B3%D0%BE%D0%B2-%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0-%D0%B2-%D0%B5%D0%B3%D0%BE-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5-%D0%BB%D0%B5%D0%B6%D0%B0%D1%82-%D1%81%D0%B5%D0%BC%D1%8C-%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B2%D1%8B%D1%85-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D0%BE%D0%B2-%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5-%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D1%8E%D1%82-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BE%D1%81%D0%BC%D1%8B%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC" aria-label="Якорь">#</a>
     </span>        
     
-</h2>
+</h3>
+
+
+<h4 class="relative group">1. Тестирование показывает наличие дефектов, но не их отсутствие 
+    <div id="1-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82-%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B5-%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BD%D0%BE-%D0%BD%D0%B5-%D0%B8%D1%85-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82-%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B5-%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BD%D0%BE-%D0%BD%D0%B5-%D0%B8%D1%85-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Тестирование помогает обнаружить ошибки в системе, но оно не может гарантировать, что багов нет вообще. Даже если тесты прошли успешно, это не значит, что система полностью безошибочна.</p>
+<p>Пример:
+Приложение прошло все тест-кейсы, но пользователь обнаружил баг при нестандартном использовании функции.</p>
+
+
+<h4 class="relative group">2. Исчерпывающее тестирование невозможно 
+    <div id="2-%D0%B8%D1%81%D1%87%D0%B5%D1%80%D0%BF%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B5%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B5%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-%D0%B8%D1%81%D1%87%D0%B5%D1%80%D0%BF%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B5%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B5%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Полностью протестировать систему невозможно – для этого пришлось бы проверять все возможные комбинации входных данных, сценариев и условий.</p>
+<p>Решение:
+Применяются техники тест-дизайна (граничные значения, классы эквивалентности, попарное тестирование) для эффективного охвата тестами.</p>
+<p>Пример:
+Форма с 5 полями, каждое из которых может принимать 10 значений. Полный перебор – 100 000 комбинаций. Реалистично протестировать только ключевые сценарии.</p>
+
+
+<h4 class="relative group">3. Раннее тестирование снижает стоимость исправления багов 
+    <div id="3-%D1%80%D0%B0%D0%BD%D0%BD%D0%B5%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BD%D0%B8%D0%B6%D0%B0%D0%B5%D1%82-%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C-%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B0%D0%B3%D0%BE%D0%B2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-%D1%80%D0%B0%D0%BD%D0%BD%D0%B5%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BD%D0%B8%D0%B6%D0%B0%D0%B5%D1%82-%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C-%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B0%D0%B3%D0%BE%D0%B2" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Чем раньше обнаружен дефект, тем дешевле его исправить. Поэтому тестирование должно начинаться на ранних этапах разработки.</p>
+<p>Пример:
+Ошибка в ТЗ → исправление на этапе анализа требований (1 день работы).
+Та же ошибка в продакшене → затраты на баг-фиксы, поддержку, жалобы клиентов.</p>
+
+
+<h4 class="relative group">4. Дефекты склонны к скоплению (Principle of Defect Clustering) 
+    <div id="4-%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D1%8B-%D1%81%D0%BA%D0%BB%D0%BE%D0%BD%D0%BD%D1%8B-%D0%BA-%D1%81%D0%BA%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8E-principle-of-defect-clustering" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D1%8B-%D1%81%D0%BA%D0%BB%D0%BE%D0%BD%D0%BD%D1%8B-%D0%BA-%D1%81%D0%BA%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8E-principle-of-defect-clustering" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Обычно 80% дефектов находятся в 20% модулей. Это означает, что ошибки часто сосредоточены в сложных или плохо написанных частях кода.</p>
+<p>Решение:
+Фокусироваться на критических и проблемных зонах при тестировании.</p>
+<p>Пример:
+В интернет-магазине большинство багов может быть в корзине и процессе оплаты, а не в разделе &ldquo;О нас&rdquo;.</p>
+
+
+<h4 class="relative group">5. &ldquo;Парадокс пестицида&rdquo;: повторение одних и тех же тестов теряет эффективность 
+    <div id="5-%D0%BF%D0%B0%D1%80%D0%B0%D0%B4%D0%BE%D0%BA%D1%81-%D0%BF%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B4%D0%B0-%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B4%D0%BD%D0%B8%D1%85-%D0%B8-%D1%82%D0%B5%D1%85-%D0%B6%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2-%D1%82%D0%B5%D1%80%D1%8F%D0%B5%D1%82-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-%D0%BF%D0%B0%D1%80%D0%B0%D0%B4%D0%BE%D0%BA%D1%81-%D0%BF%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B4%D0%B0-%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B4%D0%BD%D0%B8%D1%85-%D0%B8-%D1%82%D0%B5%D1%85-%D0%B6%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2-%D1%82%D0%B5%D1%80%D1%8F%D0%B5%D1%82-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Если запускать только одни и те же тесты, со временем они перестанут находить баги. Нужно обновлять тест-кейсы, добавлять новые сценарии и использовать разные виды тестирования.</p>
+<p>Решение:</p>
+<ul>
+<li>Актуализировать тест-кейсы</li>
+<li>Использовать exploratory testing</li>
+<li>Применять разные техники тест-дизайна</li>
+</ul>
+<p>Пример:
+Автоматизированные тесты на форму регистрации перестали находить ошибки, но ручное тестирование выявило новый баг при вводе длинного имени.</p>
+
+
+<h4 class="relative group">6. Тестирование зависит от контекста 
+    <div id="6-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D1%82-%D0%BE%D1%82-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#6-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D1%82-%D0%BE%D1%82-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Методы тестирования зависят от типа приложения.</p>
+<p>Пример:</p>
+<ul>
+<li>Банковская система → упор на безопасность и надежность</li>
+<li>Мобильное приложение → удобство использования и совместимость с устройствами</li>
+<li>Онлайн-игра → нагрузочное тестирование и тестирование сетевого соединения</li>
+</ul>
+
+
+<h4 class="relative group">7. Отсутствие ошибок ≠ успешный продукт 
+    <div id="7-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA--%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#7-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA--%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82" aria-label="Якорь">#</a>
+    </span>        
+    
+</h4>
+<p>Даже если система работает без багов, это не означает, что она удовлетворяет потребности пользователей.</p>
+<p>Пример:</p>
+<ul>
+<li>Приложение без ошибок, но с неудобным интерфейсом – пользователи уходят.</li>
+<li>Сайт работает идеально, но не решает задачи бизнеса – продукт проваливается.</li>
+</ul>
+
+
+<h3 class="relative group">Принципы тестирования помогают понять, как правильно организовать процесс тестирования, чтобы он приносил максимальную пользу. 
+    <div id="%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D1%8E%D1%82-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C-%D0%BA%D0%B0%D0%BA-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%87%D1%82%D0%BE%D0%B1%D1%8B-%D0%BE%D0%BD-%D0%BF%D1%80%D0%B8%D0%BD%D0%BE%D1%81%D0%B8%D0%BB-%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%83%D1%8E-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%B0%D1%8E%D1%82-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C-%D0%BA%D0%B0%D0%BA-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%87%D1%82%D0%BE%D0%B1%D1%8B-%D0%BE%D0%BD-%D0%BF%D1%80%D0%B8%D0%BD%D0%BE%D1%81%D0%B8%D0%BB-%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%83%D1%8E-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83" aria-label="Якорь">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>Тестирование не может доказать отсутствие багов, но помогает их найти.</li>
+<li>Невозможно протестировать всё, но можно тестировать эффективно.</li>
+<li>Чем раньше тестирование – тем дешевле исправление багов.</li>
+<li>Ошибки концентрируются в отдельных модулях – важно выявлять эти зоны.</li>
+<li>Тест-кейсы нужно обновлять, иначе они перестанут быть полезными.</li>
+<li>Методы тестирования зависят от типа продукта.</li>
+<li>Рабочий продукт не всегда означает полезный продукт.</li>
+</ul>
+<p>Следование этим принципам делает тестирование более продуманным, результативным и ценным для бизнеса.</p>
 
           
           
@@ -660,14 +805,36 @@
       <div class="flex justify-between pt-3">
         <span>
           
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/blog/posts/my_blog/">
+            <a class="flex group mr-3" href="/blog/posts/awesome_article/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Как эффективно писать тест-кейсы</span
+                  >Техники тест-дизайна</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-10-24T12:00:00&#43;03:00">24 октября 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/blog/posts/rest-api/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >REST API</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   

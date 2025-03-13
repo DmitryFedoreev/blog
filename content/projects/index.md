@@ -16,3 +16,7 @@ draft: false
 ---
 
 {{< github repo="DmitryFedoreev/UTM-Generator-Extension" >}}
+
+---
+
+{{< github repo="DmitryFedoreev/SQL-Beginner-s-Guide" >}}
