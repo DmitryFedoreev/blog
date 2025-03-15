@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>База on QA Blog</title>
+    <link>https://dmitryfedoreev.github.io/blog/tags/%D0%B1%D0%B0%D0%B7%D0%B0/</link>
+    <description>Recent content in База on QA Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <managingEditor>fedoreev.qa@gmail.com (Dmitry)</managingEditor>
+    <webMaster>fedoreev.qa@gmail.com (Dmitry)</webMaster>
+    <copyright>© 2025 Dmitry</copyright>
+    <lastBuildDate>Thu, 24 Oct 2024 12:00:00 +0300</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/blog/tags/%D0%B1%D0%B0%D0%B7%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Принципы тестирования</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/testing/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>fedoreev.qa@gmail.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/testing/</guid>
+      <description>Тестирование – это не просто поиск багов, а системный процесс, направленный на повышение качества продукта.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

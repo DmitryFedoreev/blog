@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Полезное on QA Blog</title>
+    <link>https://dmitryfedoreev.github.io/blog/posts/</link>
+    <description>Recent content in Полезное on QA Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <managingEditor>fedoreev.qa@gmail.com (Dmitry)</managingEditor>
+    <webMaster>fedoreev.qa@gmail.com (Dmitry)</webMaster>
+    <copyright>© 2025 Dmitry</copyright>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dmitryfedoreev.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>REST API</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/rest-api/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>fedoreev.qa@gmail.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/rest-api/</guid>
+      <description>REST API (Representational State Transfer) – это архитектурный стиль взаимодействия веб-сервисов.</description>
+      
+    </item>
+    
+    <item>
+      <title>Принципы тестирования</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/testing/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>fedoreev.qa@gmail.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/testing/</guid>
+      <description>Тестирование – это не просто поиск багов, а системный процесс, направленный на повышение качества продукта.</description>
+      
+    </item>
+    
+    <item>
+      <title>Техники тест-дизайна</title>
+      <link>https://dmitryfedoreev.github.io/blog/posts/test-design/</link>
+      <pubDate>Thu, 24 Oct 2024 12:00:00 +0300</pubDate>
+      <author>fedoreev.qa@gmail.com (Dmitry)</author>
+      <guid>https://dmitryfedoreev.github.io/blog/posts/test-design/</guid>
+      <description>Использование техник тест-дизайна помогает: # Сократить количество тестов, обеспечивая при этом хорошее покрытие.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
